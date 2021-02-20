@@ -665,6 +665,7 @@ a {
 
 .page-work {
   padding: 200px 200px;
+  box-sizing: border-box;
 }
 
 .three-contents{
@@ -705,8 +706,33 @@ a {
   height: 70vh;
   width: 100vw;
   background-image: url(../images/iphones-mockup.jpg);
-  left: 0 !important;
-  
+  background-repeat: no-repeat;
+  left: -200px !important;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.contexto-problema{
+  padding-top: 200px;
+}
+
+.contexto-problema p{
+  width: 100%;
+  text-align: justify;
+}
+
+.mockups-principais{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 200px;
+  position: relative;
+  width: fit-content;
+}
+
+.mockups-principais img{
+  height: 55vh;
 }
 
 
