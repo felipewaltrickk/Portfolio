@@ -4,7 +4,9 @@ body {
   background: #222;
   line-height: 1.7;
   font-size: 16px;
-  font-weight: 300; }
+  font-weight: 300; 
+  overflow-x: hidden;
+}
 
 .p1-gradient-bg, .thumb .overlay-bg {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
@@ -623,3 +625,87 @@ a {
 .letter-spacing {
   letter-spacing: .2rem;
   color: rgba(255, 255, 255, 0.5) !important; }
+
+  .texto-direita{
+    text-align: right;
+  }
+
+  .parent-nav-link-padding, .site-navbar .ul-novo-estilo > li > a {
+    padding: 15px 20px !important; }
+
+.site-navbar .ul-novo-estilo > li > a {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: .2em; }
+    @media (max-width: 991.98px) {
+      .site-navbar .ul-novo-estilo > li > a {
+        color: rgba(0, 0, 0, 0.7) !important; } }
+  .site-navbar .ul-novo-estilo > a {
+    color: #bac964 !important; }
+
+.site-navbar.scrolled .ul-novo-estilo > li > a {
+  color: rgba(0, 0, 0, 0.7) !important; }
+  .site-navbar.scrolled .ul-novo-estilo > li > a:hover {
+    color: #bac964 !important; }
+  .site-navbar.scrolled .ul-novo-estilo > li > a.active {
+    color: #bac964 !important; }
+.site-navbar.scrolled .ul-novo-estilo > li.active > a {
+  color: #bac964 !important; }    
+
+.ul-novo-estilo {
+  padding-left: 0 !important;
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.page-work {
+  padding: 200px 200px;
+}
+
+.three-contents{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.desc1{
+  text-align: justify;
+}
+
+.desc1:nth-child(2){
+  margin: 0px 50px;
+}
+
+.desc1 b{
+  font-weight: bold;
+}
+
+.first-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-right img{
+  height: 80vh;
+}
+
+.content-left{
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mockupsbg{
+  height: 70vh;
+  width: 100vw;
+  background-image: url(../images/iphones-mockup.jpg);
+  left: 0 !important;
+  
+}
+
+
