@@ -730,7 +730,7 @@ a {
 .mockupsbg-e-music{
   height: 120vh;
   width: 100vw;
-  background-image: url(../images/mockup-e-music.jpg);
+  background-image: url(../images/mockup-e-music.png);
   background-repeat: no-repeat;
   left: -200px !important;
   position: relative;
@@ -765,4 +765,92 @@ a {
 .item-mockup{
   text-align: center;
 }
+
+@media only screen and (max-width: 1300px){
+  .three-contents{
+    flex-direction: column;
+    
+  }
+  .desc1:nth-child(2) {
+    margin: 50px 0px;
+  }
+  .content-right{
+    display: flex;
+    align-items: center;
+  }
+  .desc1:nth-child(1) {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 415px){
+  .page-work {
+    padding: 100px 20px;
+  }
+  .first-content {
+    flex-direction: column;
+  }
+  .content-right img {
+    margin: 50px 0 0 0; 
+  }
+  .mockupsbg-probill {
+    left: -20px !important;
+    background-size: contain;
+    background-attachment: initial;
+    height: 30vh;
+  }
+  .contexto-problema {
+    padding-top: 50px;
+  }
+  .mockups-principais {
+    flex-direction: column;
+  }
+  .item-mockup:nth-child(2) {
+    margin: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 1030px){
+  .page-work {
+    padding: 100px 20px;
+  }
+  .first-content {
+    flex-direction: column;
+  }
+  .content-right img {
+    margin: 50px 0 0 0; 
+  }
+  .content-right {
+    display: flex;
+    justify-content: center;
+  }
+  .mockupsbg-probill {
+    left: -20px !important;
+    background-size: contain;
+    background-attachment: initial;
+    height: 50vh;
+  }
+  .contexto-problema {
+    padding-top: 50px;
+  }
+  .mockups-principais {
+    flex-direction: column;
+  }
+  .item-mockup:nth-child(2) {
+    margin: 50px 0;
+  }
+  .mockupsbg-futt {
+    left: -20px !important;
+    background-size: contain;
+    background-attachment: initial;
+    height: 40vh;
+  }
+  .mockupsbg-e-music {
+    left: -20px !important;
+    background-size: contain;
+    background-attachment: initial;
+    height: 40vh;
+  }
+}
+
 
