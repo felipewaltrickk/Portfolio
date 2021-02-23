@@ -207,6 +207,7 @@ a {
   line-height: 1.5; }
 
 .site-service-item {
+  min-height: 389px;
   background: #333;
   padding: 30px; }
   .site-service-item .icon {
@@ -475,6 +476,7 @@ a {
       transition: none; } }
 
 .resume-item {
+  min-height: 389px;
   padding: 30px;
   background: #333;
   -webkit-transition: .3s all ease;
@@ -669,10 +671,9 @@ a {
 }
 
 .three-contents{
+  align-items: flex-start;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 50px;
 }
 
 .desc1{
@@ -690,9 +691,11 @@ a {
 .first-content{
   display: flex;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 
 .content-right img{
+  margin-left: 50px;
   height: 80vh;
 }
 
@@ -702,10 +705,10 @@ a {
   justify-content: space-between;
 }
 
-.mockupsbg{
+.mockupsbg-probill{
   height: 70vh;
   width: 100vw;
-  background-image: url(../images/iphones-mockup.jpg);
+  background-image: url(../images/iphones-probill-mockup.jpg);
   background-repeat: no-repeat;
   left: -200px !important;
   position: relative;
@@ -713,8 +716,31 @@ a {
   background-attachment: fixed;
 }
 
+.mockupsbg-futt{
+  height: 120vh;
+  width: 100vw;
+  background-image: url(../images/mockup-futt.png);
+  background-repeat: no-repeat;
+  left: -200px !important;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.mockupsbg-e-music{
+  height: 120vh;
+  width: 100vw;
+  background-image: url(../images/mockup-e-music.jpg);
+  background-repeat: no-repeat;
+  left: -200px !important;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+
 .contexto-problema{
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 .contexto-problema p{
@@ -726,13 +752,17 @@ a {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 100px;
   position: relative;
   width: fit-content;
 }
 
 .mockups-principais img{
+  margin: 10px 40px 0 40px;
   height: 55vh;
 }
 
+.item-mockup{
+  text-align: center;
+}
 
