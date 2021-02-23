@@ -259,7 +259,7 @@
 				return openerElement.is('img') ? openerElement : openerElement.find('img');
 				}
 			}
-		});
+		}); 
 
 		$('.with-caption').magnificPopup({
 			type: 'image',
