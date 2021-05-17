@@ -6,6 +6,7 @@ body {
   font-size: 16px;
   font-weight: 300; 
   overflow-x: hidden;
+  
 }
 
 .p1-gradient-bg, .thumb .overlay-bg {
@@ -207,6 +208,7 @@ a {
   line-height: 1.5; }
 
 .site-service-item {
+  border-radius: 7px;
   min-height: 389px;
   background: #333;
   padding: 30px; }
@@ -426,7 +428,30 @@ a {
 .portfolio-area .filters-content .item img {
   width: 100%; }
 
+.foto-borda {
+  border-radius: 7px;
+}
+
+.mb-5 {
+  margin-bottom: 1.2rem !important;
+}
+
+.botao-secundario-insta {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #222;
+  border: 1px solid #bac964;
+  transition: 0.5s all;
+}
+
+.botao-secundario-insta:hover{
+  background-color: #bac964;
+  border: 1px solid #bac964; 
+} 
+
 .image {
+  border-radius: 7px;
   opacity: 1;
   display: block;
   width: 100%;
@@ -476,7 +501,10 @@ a {
       transition: none; } }
 
 .resume-item {
-  min-height: 389px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 470px;
   padding: 30px;
   background: #333;
   -webkit-transition: .3s all ease;
@@ -727,6 +755,40 @@ a {
   background-position: center;
 }
 
+.mockupsbg-robodoc{
+  height: 120vh;
+  width: 100vw;
+  background-image: url(../images/iphones\ mockups\ -\ robodoc.jpg);
+  background-repeat: no-repeat;
+  left: -200px !important;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.mockupsbg-robodoc-chatbot{
+  height: 120vh;
+  width: 100vw;
+  background-image: url(../images/Chatbot\ Robodoc.pdf);
+  background-repeat: no-repeat;
+  left: -200px !important;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.mockupsbg-starofertas{
+  height: 120vh;
+  width: 100vw;
+  background-image: url(../images/iphones\ mockups\ -\ ateliware.jpg);
+  background-repeat: no-repeat;
+  left: -200px !important;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+
 .mockupsbg-e-music{
   height: 120vh;
   width: 100vw;
@@ -738,6 +800,10 @@ a {
   background-position: center;
 }
 
+.contexto-problema-robodoc{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
 
 .contexto-problema{
   padding-top: 100px;
@@ -793,7 +859,8 @@ a {
   .content-right img {
     margin: 50px 0 0 0; 
   }
-  .mockupsbg-probill {
+
+  .mockupsbg-robodoc, .mockupsbg-starofertas, .mockupsbg-probill {
     left: -20px !important;
     background-size: contain;
     background-attachment: initial;
