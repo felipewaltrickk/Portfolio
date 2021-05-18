@@ -436,6 +436,13 @@ a {
   margin-bottom: 1.2rem !important;
 }
 
+.conteudo-item {
+  justify-content: center;
+  width: 380px;
+  display: inline-block;
+  padding-top: 65px;
+}
+
 .botao-secundario-insta {
   display: flex;
   align-items: center;
